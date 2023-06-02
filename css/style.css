@@ -48,7 +48,22 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 address {
     font-style: normal;
 }
 
+/* ヘッダー */
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* ロゴ */
+.logo {
+    margin: 0;
+    text-align: center;
+}
+
+/* メイン  */
