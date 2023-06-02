@@ -9,6 +9,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', YuGothic,"ヒラギノ角ゴ ProN W3","HIragino KaKu Gothic ProN",Arial,"メイリオ" Meiryo, sans-serif;
-    color: #806380;
+    color: #806342;
     background-color: #fff;
 }
+
+h1,h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
