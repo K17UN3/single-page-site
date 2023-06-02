@@ -67,3 +67,36 @@ address {
 }
 
 /* メイン  */
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* トップ（メインイメージ） */
+.top {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ナビ */
+.nav {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* <li>に対する指定 */
+.nav-list li {
+    display: list-item;
+    margin: 0;
+    border-left: 1px solid #806342;
+}
+
+/* 疑似クラスを使って指定 */
+.nav-list li:first-child {
+    display: none;
+}
+
+/* <a>に対する指定 */
+.nav-list a {
+    
+}
