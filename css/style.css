@@ -163,9 +163,13 @@ address {
   align-items: center;
   margin: 0 auto;
 }
+
+/* <address>に対する指定 */
 .access-address {
   font-size: 14px;
 }
+
+/* <strong>に対する指定 */
 .access-address strong {
   display: block;
   margin: 10px 0;
