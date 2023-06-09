@@ -93,7 +93,7 @@ address {
 
 /* 疑似クラスを使って指定 */
 .nav-list li:first-child {
-    display: none;
+    border-left: none;
 }
 
 /* <a>に対する指定 */
@@ -226,7 +226,7 @@ address {
   margin: 0;
   border-left: 1px solid #fff;
 }
-.footer-nav-list:first-child {
+.footer-nav-list li:first-child {
   border-left: none;
 }
 .footer-nav-list a {
