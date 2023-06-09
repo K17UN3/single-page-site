@@ -103,3 +103,47 @@ address {
     line-height: 1.2;
     text-transform: uppercase;
 }
+
+/* セクション */
+.section {
+  margin: 0 auto 80px;
+}
+
+/* 見出し */
+.heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* アバウト */
+.about {
+  text-align: center;
+}
+
+/* メニュー */
+.menu {
+  text-align: center;
+}
+.menu-list {
+  display: inline-block;
+  margin-left: 30px;
+  list-style: disc;
+  text-align: left;
+}
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+/* フォト */
+.photos {
+  width: 750px;
+}
+.photos-list li {
+  margin-bottom: 30px;
+}
+
+/* キャプション（タイトルや説明）を指定する */
+.photos figcaption {
+  font-size: 12px;
+}
+
