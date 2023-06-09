@@ -221,7 +221,7 @@ address {
 .footer-nav-list li {
   display: inline-block;
   margin: 0;
-  borader-left: 1px solid #fff;
+  border-left: 1px solid #fff;
 }
 .footer-nav-list:first-child {
   border-left: none;
