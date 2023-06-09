@@ -154,7 +154,7 @@ address {
 .access-row {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;  /* flex = 伸縮を制御 */
+  display: flex;  /* flex =　コンテナ内のアイテムの伸縮を制御 */
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -176,4 +176,66 @@ address {
   -ms-flex: 0 1 295px;
   flex: 0 1 295px;
   max-width: 295px;
+}
+
+/* フッター */
+.footer {
+  min-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: #806342;
+}
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 660px;
+  margin: 0 auto;
+}
+
+/* <p>に対する指定 */
+.footer-logo {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 200px;
+  flex: 0 1 200px;
+  max-width: 200px;
+  margin: 0;
+}
+
+/* <div>に対する指定 */
+.footer-body {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  padding-top: 20px;
+}
+
+/* ナビゲーションに対する指定 */
+.footer-nav {
+  margin-bottom: 20px;
+}
+.footer-nav-list li {
+  display: inline-block;
+  margin: 0;
+  borader-left: 1px solid #fff;
+}
+.footer-nav-list:first-child {
+  border-left: none;
+}
+.footer-nav-list a {
+  display: inline-block;
+  padding: 0 15px;
+  line-height: 1.2;
+  color: #fff;
+  text-transform: uppercase;  /* transfom = 移動、拡大縮小、回転、傾ける */
+}
+
+/* コピーライト */
+.copyright {
+  margin: 0;
+  padding-left: 15px;
+  color: #fff;
+}
+.copyright small {
+  font-size: 11px;
 }
