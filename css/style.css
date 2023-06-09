@@ -32,10 +32,10 @@ a:hover {
 
 p {
     margin-top: 0;
-    margin-bottom: lem;
+    margin-bottom: 1em;
 }
 ul {
-    margin: 0;
+    margin: 1em 0;
     padding: 0;
     list-style: none;
 }
@@ -86,7 +86,7 @@ address {
 
 /* <li>に対する指定 */
 .nav-list li {
-    display: list-item;
+    display: inline-block;
     margin: 0;
     border-left: 1px solid #806342;
 }
@@ -98,7 +98,7 @@ address {
 
 /* <a>に対する指定 */
 .nav-list a {
-    display: list-item;
+    display: inline-block;
     padding: 0 15px;
     line-height: 1.2;
     text-transform: uppercase;
